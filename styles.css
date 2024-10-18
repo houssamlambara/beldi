@@ -381,13 +381,21 @@ section {
     width: 100%;
     border-radius: 17px;
 }
+.mini-menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 20px;
+    cursor: pointer;
+}
 
 .package .btn_holder {
     width: 100%;
     text-align: center;
     padding: 15px 10px;
+    
 }
-
 .package .btn_holder button {
     width: 180px;
     font-size: 20px;
@@ -466,6 +474,7 @@ section {
 .about-img{
     display: flex;
     justify-content: center;
+    
 }
 
 .footer {
