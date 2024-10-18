@@ -525,8 +525,6 @@ section.contact .send {
     gap: 45px;
 }
 
-section#product {}
-
 .footer {
     padding: 0px 50px;
     background: url(./img/Rectangle\ 75.png);
@@ -570,12 +568,6 @@ section#product {}
     gap: 3em;
     font-size: 22px;
 }
-
-/* .footer .main-footer .list-holder {
-    display: flex;
-    justify-content: center;
-    gap: 6em;
-} */
 
 .footer .main-footer .list h4 {
     margin-bottom: 15px;
