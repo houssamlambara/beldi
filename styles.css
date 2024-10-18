@@ -73,7 +73,7 @@ header {
 }
 
 section {
-    padding: 50px 15%;
+    padding: 35px 15%;
 }
 
 .home {
@@ -136,7 +136,7 @@ section {
     background-image: url(img/card.png);
     background-size: cover;
     height: 400px;
-    width: 325px;
+    width: 360px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -180,14 +180,14 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 .explore-grid {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding-top: 40px;
+    padding-top: 15px;
 }
 
 .title {
@@ -423,7 +423,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px;
+    gap: 30px;
 }
 
 .treats_holder {
@@ -434,20 +434,22 @@ section {
 }
 
 .treats .img_treat {
-    width: 260px;
+    width: 100%;
     border-radius: 10px;
 }
 
 .treats .img_treat img {
     width: 100%;
-    border-radius: 17px;
+    border-radius: 10px;
 }
+
 
 .treat_title {
     display: flex;
     justify-content: space-evenly;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 600;
+    margin: 15px ;
 }
 
 .treat .btn_holder {
